@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  user-select: none;
+}
+.container {
+  width: 100%;
+  height: 365vh;
+  
+}
+
+.navbar {
+  background-color: rgb(240, 232, 232);
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 15vh;
+}
+.navbar img {
+  position: absolute;
+  left: 1.3125rem;
+  top: 0.8125rem;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 13.3125rem;
+}
+.navbar ul li {
+  padding: 0.9375rem;
+  margin: 0.9375rem;
+  color: rgb(70, 154, 182);
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(70, 154, 182);
+  font-size: 25px;
+}
+.navbar ul li a:hover {
+  background-color: rgb(70, 154, 182);
+  color: white;
+  font-size: 1.5625rem;
+  text-transform: uppercase;
+}
+
+.second-container {
+  background-image: url(http://www.gptccherthala.org/view-image/7a096a05-3978-4cab-9927-052716381860/20220408145131078214.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 80vh;
+  width: 100%;
+  height: 85vh;
+}
+.second-container h1 {
+  color: #47e3ff;
+  text-align: center;
+  font-size: 6.25em;
+  font-weight: bold;
+  line-height: 1.5em;
+  padding-top: 1.5em;
+}
+.third-container {
+  width: 100%;
+  height: 110vh;
+  background-color: white;
+  margin-top: -0.8rem;
+}
+.third-container p {
+  font-size: 1.4rem;
+  padding: 0.2rem auto;
+  line-height: 2.4rem;
+  word-spacing: 0.1rem;
+}
+.third-container p span {
+  font-weight: bold;
+  font-size: 1.875em;
+  text-transform: capitalize;
+  color: #47e3ff;
+}
+.fourth-container {
+  width: 100%;
+  height: 160vh;
+  /* background-color: rgb(207, 15, 15); */
+  margin-top:-0.875rem;
+}
+.fourth-container h1 {
+  text-align: center;
+  color: #47e3ff;
+  font-size: 4.375em;
+}
+.fourth-container-child1 {
+  width: 40%;
+  height: 40vh;
+   background-color: hwb(168 85% 13%);
+  margin-left: 5%;
+  margin-top: 1.25rem;
+  float: left;
+}
+.fourth-container-child2 {
+  width: 40%;
+  height: 40vh;
+  background-color:hwb(168 85% 13%);
+  margin-top: 1.25rem;
+  margin-left: 5%;
+  float: left;
+}
+.fourth-container-child3 {
+  width: 40%;
+  height: 40vh;
+  background-color:hwb(168 85% 13%);
+  margin-top: 1.6875rem;
+  margin-left: 5%;
+  float: left;
+}
+.fourth-container-child4 {
+  width: 40%;
+  height: 40vh;
+  margin-left: 5%;
+  background-color: hwb(168 85% 13%);
+  float: left;
+  margin-top: 1.75rem;
+}
+.fourth-container-child5 {
+  width: 63%;
+  background-color: hwb(168 85% 13%);
+  margin-top: 45%;
+  height: 40vh;
+  margin-left: 17%;
+}
+.dpt_head {
+  text-align: center;
+  font-size: 1.8em;
+  color: #010e0cfb;
+  font-weight: bold;
+}
+.dpt_para {
+  font-size: 1.5625rem;
+  line-height: 2.5rem;
+  word-spacing: 0.5rem;
+  padding: 0.625rem 0.625rem;
+}
+.button {
+  width: 9.375rem;
+  height: 1.8125rem;
+  color: white;
+  background-color: #25c01f;
+  border-radius: 7%;
+  margin: 0.125rem 5.9375rem;
+}
+.button:hover{
+
+outline: 0.125rem solid #09ff00;
+background-color: green;
+font-weight: bold;
+}
+.button1{
+  width: 9.375rem;
+  height: 1.8125rem;
+  color: white;
+  background-color: #25c01f;
+  border-radius: 7%;
+  margin:  5.9375rem;
+  margin-top:-0.125rem;
+}
+.button1:hover{
+
+  outline: 0.125rem solid #09ff00;
+  background-color: green;
+  font-weight: bold;
+  }
+  .button2{
+  
+    width: 9.375rem;
+    height: 1.8125rem;
+    color: white;
+    background-color: #25c01f;
+    border-radius: 7%;
+    margin-left: 12.5rem;
+  }
+  .button2:hover{
+
+    outline: 0.125rem solid #09ff00;
+    background-color: green;
+    font-weight: bold;
+    }
+    footer{
+    background-color: black;
+    width: 100%;
+    height: 15vh;
+    }
